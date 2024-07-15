@@ -1,0 +1,706 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+.header_container{
+    background-color: rgb(28, 27, 27);
+    /* background-color: rgb(38, 66, 56); */
+    height: 65px;
+}
+
+.logo{
+    background-color: rgb(28, 27, 27);
+    /* background-color: blue; */
+    position: relative;
+    height: 60%;
+    top: 18.9%;
+    left: 8%;
+    width: 130px;
+    background-image: url(img/logo3.png);
+    background-size: cover;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.search_bar {
+    position: relative;
+    background-color: rgb(11, 223, 223);
+    /* background-color: rgb(0, 0, 0); */
+    height: 39px;
+    width: 530px;
+    z-index: 2;
+    
+    display: inline-block;
+    left: 12%;
+   
+    
+}
+
+.search_icon{
+    position: relative;
+    display: inline-block;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    height: 38px;
+    width: 37px;
+    background-color: black;
+    border: 1px solid black;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    margin-left: -5%;
+    cursor: pointer;
+
+}
+
+.icons{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+
+}
+
+i{
+    margin: 0%;
+    padding: 0%;
+}
+
+#sr_icons:hover {
+    transform: scale(1.3, 1.3);
+    filter: brightness(5);    
+}
+
+.Search_anime{
+    position: absolute;
+    display: inline-block;
+    height: 39.5px;
+    margin-left: 9px;
+    /* width: 610px; */
+    width:100%;
+    padding-left: 8%;
+    background-color: black;
+    color: rgb(174, 175, 178);
+    border: none;
+    border: .1 solid rgb(71, 71, 71);
+    margin-left: -29px;
+    
+}
+
+.top_right_nav{
+    display: inline-block;
+    position: absolute;
+    /* background-color: blue; */
+    background-color: rgb(28, 27, 27);
+    height: 65px;
+    width: 920px;
+    left: 47.9%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.top_right_nav_first{
+    position: relative;
+    /* background-color: rgb(18, 18, 18); */
+    background-color: rgb(28, 27, 27);
+    height: 56%;
+    width: 66%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(200, 199, 199);
+    
+    
+}
+
+/* #right_nav_first_item{
+    background-color: cadetblue;
+    width: 10%;
+    height: 60%;
+    margin-left: 4px;
+} */
+
+.top_right_nav_first_items_1{
+    background-color: rgb(14, 127, 131);
+    height: 70%;
+    width: 4%;
+    margin-left: 5px;
+    background-image: url(img/play.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.top_right_nav_first_items_2{
+    background-color: rgb(0, 0, 0);
+    height: 50%;
+    width: 14.6%;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top_right_nav_first_items_3{
+    background-color: rgb(14, 127, 131);
+    height: 70%;
+    width: 4%;
+    margin-left: 24px;
+    cursor: pointer;
+    background-image: url(img/suffle.png);
+    background-size: cover;
+}
+
+.top_right_nav_first_items_4{
+    background-color: rgb(0, 0, 0);
+    height: 50%;
+    width: 10%;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top_right_nav_first_items_5{
+    background-color: rgb(14, 127, 131);
+    height: 70%;
+    width: 4%;
+    margin-left: 24px;
+    cursor: pointer;
+    background-image: url(img/book.png);
+    background-size: cover;
+}
+
+.top_right_nav_first_items_6{
+    background-color: rgb(0, 0, 0);
+    height: 50%;
+    width: 14.6%;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top_right_nav_first_items_2:hover, .top_right_nav_first_items_4:hover,.top_right_nav_first_items_6:hover{
+    color: rgb(170, 90, 246);
+}
+
+.top_right_nav_first_items_7{
+    background-color: rgb(61, 61, 61);
+    height: 23px;
+    width: 23px;
+    margin-left: 40px;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    cursor: pointer;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.top_right_nav_first_items_8{
+    background-color: rgb(47, 47, 47);
+    height: 23px;
+    width: 23px;
+    margin-left: 0px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    padding-left: 6px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.top_right_nav_first_items_7:hover, .top_right_nav_first_items_8:hover{
+    background-color: rgb(109, 57, 158);
+}
+
+
+
+
+.top_right_nav_second{
+    position: relative;
+    background-color: rgb(95, 25, 133);
+    height: 56%;
+    width: 12%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    cursor: pointer;
+
+
+}
+
+.top_right_nav_second:hover{
+    background-color: rgb(118, 55, 152);
+}
+
+.top_right_nav_second_item_1{
+    background-color: rgb(95, 25, 133);
+    width: 50%;
+    height: 70%;
+    margin-left: 17px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 238, 238);
+}
+
+.top_right_nav_second_item_1:hover{
+    background-color: rgb(118, 55, 152);
+}
+
+.top_right_nav_second_item_2{
+    background-color: rgb(95, 25, 133);
+    height: 70%;
+    width: 25%;
+    padding-left: 2px;
+    padding-top: 9px;
+
+}
+
+.top_right_nav_second_item_2:hover{
+    background-color: rgb(118, 55, 152);
+}
+
+.container{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main_container{
+    position: relative;
+    /* background-color: rgb(159, 105, 159); */
+    background-color: black;
+    height: 1200px;
+    width: 100%;
+    z-index: 100;
+    top: 20px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 3.73%; fuck-you*/
+   
+
+}
+
+.video_container{
+    background-color: rgb(103, 31, 103);
+    width: 70.8%;
+    height: 100%;
+    margin-left: 3.73%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_video_container{
+    /* background-color: rgb(138, 27, 242); */
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: 100%;
+    height: 824px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+/* ................................................................................................................ */
+.episode_container{
+    position: relative;
+    background-color: rgb(2, 52, 121);
+    height: 100%;
+    width: 17%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_dub{
+    background-color: rgb(0, 0, 0);
+    height: 6%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.find_ep_input{
+    padding-left: 10px;
+     width: 45px;
+}
+
+input{
+    background-color: rgb(41, 41, 41);
+    color: rgb(169, 167, 167);
+    outline: none;
+}
+
+select{
+    cursor: pointer;
+    background-color: rgb(41, 41, 41);
+    color: rgb(201, 194, 194);
+    border: none;
+    padding: .8%;
+    outline: none;
+    border-radius: 15%;
+}
+
+select:hover{
+    background-color: rgb(85, 84, 84);
+}
+
+
+.episode_list{
+    /* background-color: rgb(162, 162, 11); */
+    background-color: rgb(0, 0, 0);
+    height: 94%;
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    color: rgb(213, 213, 213);
+    justify-content: space-around;
+    
+    
+
+}
+
+.ep_{
+    font-family: arial;
+    font-size: 15px;
+    height: 6%;
+    background-color: rgb(32, 11, 51);
+    /* display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    cursor: pointer;
+      
+}
+
+.ep_:hover{
+    background-color: rgb(161, 159, 163);
+}
+
+
+
+.ep_text{
+    margin-top: 13px;
+}
+
+
+
+.video_play_container{
+    position: relative;
+    background-color: rgb(2, 52, 121);
+    height: 100%;
+    width: 81.5%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.video_content{
+    position: relative;
+    background-color: chocolate;
+    height:73%;
+    width: 100%;
+    background-image: url(img/demon\ slayer.png);
+    background-repeat: no-repeat;
+}
+
+.video_settings{
+    position: relative;
+    /* background-color: rgb(89, 43, 10); */
+    background-color: black;
+    background-image: url(img/video_settings.png);
+    background-repeat: no-repeat;
+    height:27%;
+    width: 100%;
+}
+
+.description_container{
+    /* background-color: rgb(50, 0, 97); */
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 376px;
+    padding-left: 2px;
+    padding-right: 5px;
+    display: inline-block;
+    display: flex;
+
+}
+
+.description_container_img_box{
+    /* background-color: brown; */
+    background-color: black;
+    width: 15%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.description_anime_cover_img{
+    background-color: aqua;
+    height: 70%;
+    margin-top: 17px;
+    border-radius: 14px;
+    background-size: cover;
+    background-image: url(img/demon\ slayer\ cover\ pic.png);
+}
+
+.description_container_text{
+    /* background-color: cyan; */
+    background-color: black;
+    width: 60%;
+    margin-left: 15px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    color: rgb(226, 226, 226);
+
+}
+
+.description_title{
+    background-color: rgb(0, 0, 0);
+    height: 13%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+}
+
+.description_title_little{
+    background-color: rgb(0, 0, 0);
+    height: 6%;
+    margin-bottom: 0px;
+    font-size: small;
+    color: rgb(149, 149, 149);
+}
+
+.description_mini_logo{
+    background-color: rgb(0, 0, 0);
+    height: 5%;
+    margin-bottom: 15px;
+    display: inline-block;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.description_mini_logo_items{
+    background-color: rgb(0, 0, 0);
+    margin-left: 1px;
+    width: 2.5%;
+    height: 100%;
+    padding-left: 3px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.description_about_anime{
+    background-color: rgb(0, 0, 0);
+    height: 22%;
+    margin-bottom: 13px;
+    font-size: small;
+    color: rgb(149, 149, 149);
+}
+
+.description_about_more_topic{
+    background-color: orange;
+    height: 43.9%;
+    /* margin-bottom: 10px; */
+    background-image: url(img/anime\ catagory.png);
+    background-size: cover;
+}
+
+
+
+.description_container_rating{
+    background-color: rgb(0, 0, 0);
+    width: 21.5%;
+    margin-left: 22px;
+}
+
+.description_container_rating_img{
+    background-color: aqua;
+    height: 31%;
+    margin-top: 110px;
+    background-size: cover;
+    background-image: url(img/demon\ slayer\ rating.png);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.description_container_rating_img:hover{
+    filter: brightness(1.2);
+}
+
+
+
+.right_side_container{
+    /* background-color: rgb(247, 26, 247); */
+    background-color: black;
+    width: 21.75%;
+    height: 100%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.right_side_container_anime_trending_item_1{
+    background-color: rgb(0, 0, 0);
+    height: 4%;
+    padding-left: 10px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    cursor: text;
+    
+}
+
+.right_side_container_anime_trending_item_1:hover{
+    color: rgb(110, 38, 177);
+}
+
+
+.right_side_container_anime_trending_item_2{
+    background-color: rgb(48, 48, 144);
+    height: 10%;
+    margin-top: 6px;
+    background-image: url(trending_anime/solo\ leveling\ season\ 1.png);
+    background-size: cover;
+    filter: contrast(1);
+    cursor: pointer;
+}
+
+.right_side_container_anime_trending_item_2:hover{
+    transform: scale(1.02, 1.02);
+}
+
+
+.right_side_container_anime_trending_item_3{
+    background-color: rgb(11, 11, 129);
+    height: 10%;
+    margin-top: 6px;
+    background-image: url(trending_anime/jjk\ season\ 2.png);
+    background-size: cover;
+    filter: contrast(1);
+    cursor: pointer;
+}
+
+.right_side_container_anime_trending_item_3:hover{
+    transform: scale(1.02, 1.02);
+}
+
+
+
+.right_side_container_anime_trending_item_4{
+    background-color: rgb(36, 36, 103);
+    height: 10%;
+    margin-top: 6px;
+    background-image: url(trending_anime/attack\ on\ titan\ s1.png);
+    background-size: cover;
+    filter: contrast(1);
+    cursor: pointer;
+
+}
+
+.right_side_container_anime_trending_item_4:hover{
+    transform: scale(1.02, 1.02);
+}
+
+
+
+.right_side_container_anime_trending_item_5{
+    background-color: rgb(74, 74, 165);
+    height: 10%;
+    margin-top: 6px;
+    background-image: url(trending_anime/eminense\ in\ shadow.png);
+    background-size: cover;
+    filter: contrast(1);
+    cursor: pointer;
+
+}
+
+.right_side_container_anime_trending_item_5:hover{
+    transform: scale(1.02, 1.02);
+}
+
+
+
+.right_side_container_anime_trending_item_6{
+    background-color: rgb(16, 16, 79);
+    height: 10%;
+    margin-top: 6px;
+    background-image: url(trending_anime/jujustsu\ kaisen\ season1.png);
+    background-size: cover;
+    filter: contrast(1);
+    cursor: pointer;
+
+}
+
+.right_side_container_anime_trending_item_6:hover{
+    transform: scale(1.02, 1.02);
+}
+
+
+.right_side_container_anime_trending_item_7{
+    background-color: rgb(16, 16, 55);
+    height: 10%;
+    margin-top: 6px;
+    background-image: url(trending_anime/towe\ of\ god.png);
+    background-size: cover;
+    filter: contrast(1);
+    cursor: pointer;
+
+}
+
+.right_side_container_anime_trending_item_7:hover{
+    transform: scale(1.02, 1.02);
+}
+
+footer{
+    margin-top: auto;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.footer_content{
+    /* background-color: aquamarine; */
+    background-color: black;
+    height: 400px;
+    
+}
+
+.footer_content_bottom_last{
+    height: 450px;
+    background-color: darkolivegreen;
+    background-size: cover;
+    background-image: url(img/last\ footer.png);
+}
